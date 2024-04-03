@@ -49,7 +49,7 @@ public class Doctor {
 		}
 	
 	}
-	
+
 	public String login_doctor() {
 		scanner.nextLine();
 		System.out.println("--> ENTER YOUR MEDICAL ID : ");
@@ -72,7 +72,7 @@ public class Doctor {
 		}catch(SQLException e) {
 			System.out.println("INVALID USER or PASSWORD !!...");
 		}return null;
-		
+	
 	}
 	
 	public boolean Doctor_exist(String Medical_ID) {
