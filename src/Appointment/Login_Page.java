@@ -123,15 +123,15 @@ public class Login_Page {
 							if(!hospital.Doctor_exist(Medical_ID)) {
 								System.out.println();
 								System.out.println("1. FILL THE NEW DOCTOR ACCOUNT");
-								hospital.open_account_doctor(Medical_ID);
-							//	if(scanner.nextInt() == 1) {
-							//		Medical_ID = hospital.open_account_doctor(Medical_ID);
+								//hospital.open_account_doctor(Medical_ID);
+								if(scanner.nextInt() == 1) {
+								 hospital.open_account_doctor(Medical_ID);
 								}
 								else {
 									break;
 								}
 							} 
-					//	}
+						}
 		} // CHOICE 2  ENDS HERE
 					
 	//------------------------------------------------------------------------------------------

@@ -66,7 +66,9 @@ public class Patient {
 			if(resultSet.next()) {
 				return EMAIL;
 			}else {
-				return null;
+				//return null;
+				System.out.println("INVALID USER or PASSWORD !!...");
+
 			}
 		}catch(SQLException e) {
 			System.out.println(" INVALID EMAIL or PASSWORD !!.....");

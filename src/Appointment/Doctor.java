@@ -66,7 +66,8 @@ public class Doctor {
 			if(resultSet.next()) {
 				return Medical_ID;
 			}else {
-				return null;
+				//return null;
+				System.out.println("INVALID USER or PASSWORD !!...");
 			}
 		}catch(SQLException e) {
 			System.out.println("INVALID USER or PASSWORD !!...");
